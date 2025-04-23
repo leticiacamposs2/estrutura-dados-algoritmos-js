@@ -64,7 +64,3 @@ O projeto utiliza um fluxo de trabalho de Integração Contínua (CI) definido n
 ## Licença
 
 Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## Contato
-
-Para dúvidas ou sugestões, entre em contato através do e-mail: seu-email@exemplo.com.
