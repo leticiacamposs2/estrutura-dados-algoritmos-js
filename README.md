@@ -38,37 +38,6 @@ estrutura-dados-algoritmos-js
 ├── .gitignore
 ├── package.json
 ├── README.md
-└── CONTRIBUTING.mdestrutura-dados-algoritmos-js
-├── src
-│   ├── chapter-1
-│   │   ├── 01-HelloWorld.html
-│   │   ├── 01-HelloWorld.js
-│   │   ├── 02-Variables.html
-│   │   ├── 02-Variables.js
-│   │   ├── 03-Operators.html
-│   │   ├── 03-Operators.js
-│   │   ├── 04-TruthyFalsy.html
-│   │   ├── 04-TruthyFalsy.js
-│   │   ├── 05-EqualsOperators.html
-│   │   ├── 05-EqualsOperators.js
-│   │   ├── 06-ConditionalStatements.html
-│   │   ├── 06-ConditionalStatements.js
-│   │   ├── 07-Loops.html
-│   │   └── 07-Loops.js
-│   ├── chapter-2
-│   │   └── exercises
-│   │       └── exercise-1.js
-│   └── utils
-│       └── helper.js
-├── .github
-│   ├── ISSUE_TEMPLATE
-│   │   ├── bug_report.md
-│   │   └── feature_request.md
-│   └── workflows
-│       └── ci.yml
-├── .gitignore
-├── package.json
-├── README.md
 └── CONTRIBUTING.md
 ```
 
