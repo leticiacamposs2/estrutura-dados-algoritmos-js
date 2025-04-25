@@ -10,8 +10,12 @@ O projeto está organizado da seguinte forma:
 estrutura-dados-algoritmos-js
 ├── src
 │   ├── chapter-1
-│   │   └── exercises
-│   │       └── exercise-1.js
+│   │   ├── 01-HelloWorld.html
+│   │   ├── 01-HelloWorld.js
+│   │   ├── 02-Variables.html
+│   │   ├── 02-Variables.js
+│   │   ├── 03-Operators.html
+│   │   └── 03-Operators.js
 │   ├── chapter-2
 │   │   └── exercises
 │   │       └── exercise-1.js
