@@ -23,9 +23,11 @@ estrutura-dados-algoritmos-js
 │   │   ├── 06-ConditionalStatements.html
 │   │   ├── 06-ConditionalStatements.js
 │   │   ├── 07-Loops.html
-│   │   └── 07-Loops.js
+│   │   ├── 07-Loops.js
 │   │   ├── 08-Functions.html
-│   │   └── 08-Functions.js
+│   │   ├── 08-Functions.js
+│   │   ├── 09-ObjectOrientedJS.html
+│   │   └── 09-ObjectOrientedJS.js
 │   ├── chapter-2
 │   │   └── exercises
 │   │       └── exercise-1.js
