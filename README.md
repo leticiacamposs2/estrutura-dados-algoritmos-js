@@ -16,6 +16,8 @@ estrutura-dados-algoritmos-js
 │   │   ├── 02-Variables.js
 │   │   ├── 03-Operators.html
 │   │   └── 03-Operators.js
+│   │   └── 04-TruthyFalsy.html
+│   │   └── 04-TruthyFalsy.js
 │   ├── chapter-2
 │   │   └── exercises
 │   │       └── exercise-1.js
