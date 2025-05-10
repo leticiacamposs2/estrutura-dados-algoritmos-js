@@ -19,6 +19,10 @@ estrutura-dados-algoritmos-js
 ├── node_modules
 ├── src
 │   ├── chapter-1
+│   │   ├── __tests__
+│   │   │   ├── 02-Variables.js
+│   │   │   ├── 08-Functions.js
+│   │   │   └── 09-ObjectOrientedJS.js
 │   │   ├── 00-TestRunner.html
 │   │   ├── 00-TestRunner.js
 │   │   ├── 01-HelloWorld.js
