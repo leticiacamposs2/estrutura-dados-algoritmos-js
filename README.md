@@ -10,23 +10,24 @@ O projeto está organizado da seguinte forma:
 estrutura-dados-algoritmos-js
 ├── src
 │   ├── chapter-1
-│   │   ├── 01-HelloWorld.html
+│   │   └── results
+│   │       ├── 01-HelloWorld.html
+│   │       ├── 02-Variables.html
+│   │       ├── 03-Operators.html
+│   │       ├── 04-TruthyFalsy.html
+│   │       ├── 05-EqualsOperators.html
+│   │       ├── 06-ConditionalStatements.html
+│   │       ├── 07-Loops.html
+│   │       ├── 08-Functions.html
+│   │       └── 09-ObjectOrientedJS.html
 │   │   ├── 01-HelloWorld.js
-│   │   ├── 02-Variables.html
 │   │   ├── 02-Variables.js
-│   │   ├── 03-Operators.html
 │   │   ├── 03-Operators.js
-│   │   ├── 04-TruthyFalsy.html
 │   │   ├── 04-TruthyFalsy.js
-│   │   ├── 05-EqualsOperators.html
 │   │   ├── 05-EqualsOperators.js
-│   │   ├── 06-ConditionalStatements.html
 │   │   ├── 06-ConditionalStatements.js
-│   │   ├── 07-Loops.html
 │   │   ├── 07-Loops.js
-│   │   ├── 08-Functions.html
 │   │   ├── 08-Functions.js
-│   │   ├── 09-ObjectOrientedJS.html
 │   │   └── 09-ObjectOrientedJS.js
 │   ├── chapter-2
 │   │   └── exercises
