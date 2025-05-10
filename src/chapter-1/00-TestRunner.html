@@ -1,28 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Runner - Chapter 1</title>
+    <link rel="stylesheet" href="00-TestRunner.css">
 </head>
 
 <body>
-    <h1>Executar Script do Capítulo 1</h1>
-    <label for="scriptSelect">Escolha o script:</label>
-    <select id="scriptSelect">
-        <option value="">Selecione...</option>
-        <option value="01-HelloWorld.js">01-HelloWorld.js</option>
-        <option value="02-Variables.js">02-Variables.js</option>
-        <option value="03-Operators.js">03-Operators.js</option>
-        <option value="04-TruthyFalsy.js">04-TruthyFalsy.js</option>
-        <option value="05-EqualsOperators.js">05-EqualsOperators.js</option>
-        <option value="06-ConditionalStatements.js">06-ConditionalStatements.js</option>
-        <option value="07-Loops.js">07-Loops.js</option>
-        <option value="08-Functions.js">08-Functions.js</option>
-        <option value="09-ObjectOrientedJS.js">09-ObjectOrientedJS.js</option>
-    </select>
-
+    <main>
+        <h1>Executar Script do Capítulo 1</h1>
+        <form>
+            <label for="scriptSelect">Escolha o script:</label>
+            <select id="scriptSelect" aria-label="Escolha o script para executar">
+                <option value="">Selecione...</option>
+                <option value="01-HelloWorld.js">01-HelloWorld.js</option>
+                <option value="02-Variables.js">02-Variables.js</option>
+                <option value="03-Operators.js">03-Operators.js</option>
+                <option value="04-TruthyFalsy.js">04-TruthyFalsy.js</option>
+                <option value="05-EqualsOperators.js">05-EqualsOperators.js</option>
+                <option value="06-ConditionalStatements.js">06-ConditionalStatements.js</option>
+                <option value="07-Loops.js">07-Loops.js</option>
+                <option value="08-Functions.js">08-Functions.js</option>
+                <option value="09-ObjectOrientedJS.js">09-ObjectOrientedJS.js</option>
+            </select>
+        </form>
+        <div id="output" aria-live="polite"></div>
+    </main>
     <script>
         const select = document.getElementById('scriptSelect');
         let currentScript = null;
@@ -37,6 +42,7 @@
             if (this.value) {
                 const script = document.createElement('script');
                 script.src = this.value;
+                script.defer = true;
                 currentScript = script;
                 document.body.appendChild(script);
             }
