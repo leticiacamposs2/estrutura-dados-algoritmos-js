@@ -24,7 +24,7 @@
     "overrides": [
         {
             "files": [
-                "**/__tests__/**/*.js"
+                "src/**/__tests__/**"
             ],
             "env": {
                 "jest": true
