@@ -4,51 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Runner - Chapter 1</title>
+    <title>Test Runner - Chapter 2</title>
     <link rel="stylesheet" href="../styles.css">
     <link rel="icon" href="data:,">
 </head>
 
 <body>
     <main>
-        <h1>Executar Script do Capítulo 1</h1>
+        <h1>Executar Script do Capítulo 2</h1>
         <form>
             <label for="scriptSelect">Escolha o script:</label>
             <select id="scriptSelect" aria-label="Escolha o script para executar">
                 <option value="">Selecione...</option>
-                <option value="01-HelloWorld.js">01-HelloWorld.js</option>
-                <option value="02-Variables.js">02-Variables.js</option>
-                <option value="03-Operators.js">03-Operators.js</option>
-                <option value="04-TruthyFalsy.js">04-TruthyFalsy.js</option>
-                <option value="05-EqualsOperators.js">05-EqualsOperators.js</option>
-                <option value="06-ConditionalStatements.js">06-ConditionalStatements.js</option>
-                <option value="07-Loops.js">07-Loops.js</option>
-                <option value="08-Functions.js">08-Functions.js</option>
-                <option value="09-ObjectOrientedJS.js">09-ObjectOrientedJS.js</option>
+                <option value="10-letconst.js">10-letconst.js</option>
+                <option value="11-variableScope.js">11-variableScope.js</option>
             </select>
+            <div id="consoleHint" style="display:none; color:#b45309; font-size:0.98rem; margin-top:0.5rem;">
+                Abra o console do navegador (<kbd>F12</kbd> ou <kbd>Ctrl+Shift+I</kbd>) para ver a saída do script.
+            </div>
+            <div id="scriptDescription" style="margin-top:0.5rem; color:#1976d2; font-size:1rem;"></div>
         </form>
         <div id="output" aria-live="polite"></div>
     </main>
-    <script>
-        const select = document.getElementById('scriptSelect');
-        let currentScript = null;
-
-        select.addEventListener('change', function () {
-            // Remove o script anterior, se houver
-            if (currentScript) {
-                document.body.removeChild(currentScript);
-                currentScript = null;
-            }
-            // Adiciona o novo script, se selecionado
-            if (this.value) {
-                const script = document.createElement('script');
-                script.src = this.value;
-                script.defer = true;
-                currentScript = script;
-                document.body.appendChild(script);
-            }
-        });
-    </script>
+    <script src="00-TestRunner.js"></script>
 </body>
 
 </html>
