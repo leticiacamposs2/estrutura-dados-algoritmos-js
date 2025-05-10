@@ -12,7 +12,7 @@ else {
     console.log('Month is not January, February, or March');
 }
 
-var month = 5;
+month = 5;
 switch (month) {
     case 1:
         console.log('January');

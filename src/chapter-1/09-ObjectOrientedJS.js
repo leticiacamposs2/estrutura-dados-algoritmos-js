@@ -1,13 +1,11 @@
-var obj = new Object();
-var obj = {}; // object literal syntax
-
-obj = {
+var obj = {
     name: {
         first: 'Gandalf',
         last: 'the Grey'
     },
     address: 'Middle Earth'
 };
+console.log(obj);
 
 function Book(title, pages, isbn) {
     this.title = title;
@@ -17,22 +15,22 @@ function Book(title, pages, isbn) {
 
 var book = new Book('title', 'pages', 'isbn');
 
-console.log(book.title); // title
-book.title = 'new title'; // update property
-console.log(book.title); // new title
+console.log(book.title);
+book.title = 'new title';
+console.log(book.title);
 
 Book.prototype.printTitle = function () {
     console.log(this.title);
-}
-book.printTitle(); // new title
+};
+book.printTitle();
 
-function Book(title, pages, isbn) {
+function BookWithIsbn(title, pages, isbn) {
     this.title = title;
     this.pages = pages;
     this.isbn = isbn;
     this.printIsbn = function () {
         console.log(this.isbn);
-    }
+    };
 }
-book.printIsbn(); // isbn
-
+var book2 = new BookWithIsbn('title', 'pages', 'isbn');
+book2.printIsbn();

@@ -19,6 +19,7 @@ testTruthy(obj); // truthy
 testTruthy(obj.name); // falsy
 testTruthy(obj.age); // falsy
 
+// eslint-disable-next-line no-constant-condition
 console.log('packt' ? true : false); // true
 console.log('packt' == true); // false
 console.log('packt' == false); // false
