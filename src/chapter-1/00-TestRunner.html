@@ -26,29 +26,14 @@
                 <option value="08-Functions.js">08-Functions.js</option>
                 <option value="09-ObjectOrientedJS.js">09-ObjectOrientedJS.js</option>
             </select>
+            <div id="consoleHint" style="display:none; color:#b45309; font-size:0.98rem; margin-top:0.5rem;">
+                Abra o console do navegador (<kbd>F12</kbd> ou <kbd>Ctrl+Shift+I</kbd>) para ver a saída do script.
+            </div>
+            <div id="scriptDescription" style="margin-top:0.5rem; color:#1976d2; font-size:1rem;"></div>
         </form>
         <div id="output" aria-live="polite"></div>
     </main>
-    <script>
-        const select = document.getElementById('scriptSelect');
-        let currentScript = null;
-
-        select.addEventListener('change', function () {
-            // Remove o script anterior, se houver
-            if (currentScript) {
-                document.body.removeChild(currentScript);
-                currentScript = null;
-            }
-            // Adiciona o novo script, se selecionado
-            if (this.value) {
-                const script = document.createElement('script');
-                script.src = this.value;
-                script.defer = true;
-                currentScript = script;
-                document.body.appendChild(script);
-            }
-        });
-    </script>
+    <script src="00-TestRunner.js"></script>
 </body>
 
 </html>
