@@ -8,9 +8,19 @@ O projeto está organizado da seguinte forma:
 
 ```
 estrutura-dados-algoritmos-js
+├── .github
+│   ├── ISSUE_TEMPLATE
+│   │   ├── bug_report.md
+│   │   └── feature_request.md
+│   └── workflows
+│       └── ci.yml
+├── .vscode
+│   └── launch.json
+├── node_modules
 ├── src
 │   ├── chapter-1
 │   │   ├── 00-TestRunner.html
+│   │   ├── 00-TestRunner.js
 │   │   ├── 01-HelloWorld.js
 │   │   ├── 02-Variables.js
 │   │   ├── 03-Operators.js
@@ -21,20 +31,16 @@ estrutura-dados-algoritmos-js
 │   │   ├── 08-Functions.js
 │   │   └── 09-ObjectOrientedJS.js
 │   ├── chapter-2
-│   │   ├── 00-TestRunner.html
-│   └── utils
-│       └── helper.js
-│   ├── styles.css
-├── .github
-│   ├── ISSUE_TEMPLATE
-│   │   ├── bug_report.md
-│   │   └── feature_request.md
-│   └── workflows
-│       └── ci.yml
+│   │   └── 00-TestRunner.html
+│   ├── utils
+│   │   └── helper.js
+│   └── styles.css
+├── .eslintrc.json
 ├── .gitignore
+├── CONTRIBUTING.md
+├── package-lock.json
 ├── package.json
-├── README.md
-└── CONTRIBUTING.md
+└── README.md
 ```
 
 ## Como Contribuir
