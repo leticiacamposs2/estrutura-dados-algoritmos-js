@@ -22,39 +22,38 @@ estrutura-dados-algoritmos-js
 ├── CONTRIBUTING.md
 ├── package.json
 ├── README.md
-├── src
-│   ├── chapter-1
-│   │   ├── 00-TestRunner.html
-│   │   ├── 00-TestRunner.js
-│   │   ├── 01-HelloWorld.js
-│   │   ├── 02-Variables.js
-│   │   ├── 03-Operators.js
-│   │   ├── 04-TruthyFalsy.js
-│   │   ├── 05-EqualsOperators.js
-│   │   ├── 06-ConditionalStatements.js
-│   │   ├── 07-Loops.js
-│   │   ├── 08-Functions.js
-│   │   ├── 09-ObjectOrientedJS.js
-│   │   └── __tests__
-│   │       ├── 02-Variables.js
-│   │       ├── 08-Functions.js
-│   │       └── 09-ObjectOrientedJS.js
-│   ├── chapter-2
-│   │   ├── 00-TestRunner.html
-│   │   ├── 00-TestRunner.js
-│   │   ├── 10-letconst.js
-│   │   ├── 11-variableScope.js
-│   │   ├── 12-stringTemplates.js
-│   │   ├── 13-arrowFunctions.js
-│   │   └── ECS.md
-│   ├── index.html
-│   ├── index.js
-│   ├── styles.css
-│   └── utils
-│       ├── helper.js
-│       └── __tests__
-│           └── helper.js
-└── update-readme-structure.js
+└── src
+    ├── chapter-1
+    │   ├── 00-TestRunner.html
+    │   ├── 00-TestRunner.js
+    │   ├── 01-HelloWorld.js
+    │   ├── 02-Variables.js
+    │   ├── 03-Operators.js
+    │   ├── 04-TruthyFalsy.js
+    │   ├── 05-EqualsOperators.js
+    │   ├── 06-ConditionalStatements.js
+    │   ├── 07-Loops.js
+    │   ├── 08-Functions.js
+    │   ├── 09-ObjectOrientedJS.js
+    │   └── __tests__
+    │       ├── 02-Variables.js
+    │       ├── 08-Functions.js
+    │       └── 09-ObjectOrientedJS.js
+    ├── chapter-2
+    │   ├── 00-TestRunner.html
+    │   ├── 00-TestRunner.js
+    │   ├── 10-letconst.js
+    │   ├── 11-variableScope.js
+    │   ├── 12-stringTemplates.js
+    │   ├── 13-arrowFunctions.js
+    │   └── ECS.md
+    ├── index.html
+    ├── index.js
+    ├── styles.css
+    └── utils
+        ├── helper.js
+        └── __tests__
+            └── helper.js
 ```
 
 ## Como Contribuir

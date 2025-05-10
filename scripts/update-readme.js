@@ -1,12 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
-const ROOT = path.resolve(__dirname);
+// Corrija a raiz para ser a raiz do projeto (um nível acima da pasta scripts)
+const ROOT = path.resolve(__dirname, '..');
 const README = path.join(ROOT, 'README.md');
-const SRC = ROOT;
 
 const IGNORE = [
-    'node_modules', '.git', '.DS_Store', 'package-lock.json'
+    'node_modules', '.git', '.DS_Store', 'package-lock.json', 'scripts'
 ];
 
 function tree(dir, prefix = '') {
