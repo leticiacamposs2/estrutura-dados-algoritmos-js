@@ -40,6 +40,7 @@ estrutura-dados-algoritmos-js
 │   │   ├── __tests__
 │   │   │   └── helper.js
 │   │   └── helper.js
+│   ├── index.html
 │   └── styles.css
 ├── .eslintignore
 ├── .eslintrc.json
