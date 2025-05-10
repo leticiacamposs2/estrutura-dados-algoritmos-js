@@ -4,6 +4,8 @@
   "description": "Repositório para estudo de Estruturas de Dados e Algoritmos utilizando JavaScript.",
   "main": "src/index.js",
   "scripts": {
+    "update-readme-structure": "node scripts/update-readme-structure.js",
+    "update-chapter2-select": "node scripts/update-chapter2-testrunner.js",
     "start": "node src/index.js",
     "lint": "eslint src/**/*.js",
     "test": "jest"

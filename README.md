@@ -8,21 +8,22 @@ O projeto está organizado da seguinte forma:
 
 ```
 estrutura-dados-algoritmos-js
+├── .eslintignore
+├── .eslintrc.json
 ├── .github
 │   ├── ISSUE_TEMPLATE
 │   │   ├── bug_report.md
 │   │   └── feature_request.md
 │   └── workflows
 │       └── ci.yml
+├── .gitignore
 ├── .vscode
 │   └── launch.json
-├── node_modules
+├── CONTRIBUTING.md
+├── package.json
+├── README.md
 ├── src
 │   ├── chapter-1
-│   │   ├── __tests__
-│   │   │   ├── 02-Variables.js
-│   │   │   ├── 08-Functions.js
-│   │   │   └── 09-ObjectOrientedJS.js
 │   │   ├── 00-TestRunner.html
 │   │   ├── 00-TestRunner.js
 │   │   ├── 01-HelloWorld.js
@@ -33,28 +34,27 @@ estrutura-dados-algoritmos-js
 │   │   ├── 06-ConditionalStatements.js
 │   │   ├── 07-Loops.js
 │   │   ├── 08-Functions.js
-│   │   └── 09-ObjectOrientedJS.js
+│   │   ├── 09-ObjectOrientedJS.js
+│   │   └── __tests__
+│   │       ├── 02-Variables.js
+│   │       ├── 08-Functions.js
+│   │       └── 09-ObjectOrientedJS.js
 │   ├── chapter-2
 │   │   ├── 00-TestRunner.html
 │   │   ├── 00-TestRunner.js
 │   │   ├── 10-letconst.js
 │   │   ├── 11-variableScope.js
 │   │   ├── 12-stringTemplates.js
+│   │   ├── 13-arrowFunctions.js
 │   │   └── ECS.md
-│   ├── utils
-│   │   ├── __tests__
-│   │   │   └── helper.js
-│   │   └── helper.js
 │   ├── index.html
 │   ├── index.js
-│   └── styles.css
-├── .eslintignore
-├── .eslintrc.json
-├── .gitignore
-├── CONTRIBUTING.md
-├── package-lock.json
-├── package.json
-└── README.md
+│   ├── styles.css
+│   └── utils
+│       ├── helper.js
+│       └── __tests__
+│           └── helper.js
+└── update-readme-structure.js
 ```
 
 ## Como Contribuir
