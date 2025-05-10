@@ -19,7 +19,8 @@
         "eqeqeq": "off",
         "curly": "off",
         "no-multi-spaces": "off",
-        "no-trailing-spaces": "off"
+        "no-trailing-spaces": "off",
+        "no-inner-declaration": "off"
     },
     "overrides": [
         {
