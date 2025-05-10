@@ -11,7 +11,6 @@ estrutura-dados-algoritmos-js
 ├── src
 │   ├── chapter-1
 │   │   ├── 00-TestRunner.html
-│   │   ├── 00-TestRunner.css
 │   │   ├── 01-HelloWorld.js
 │   │   ├── 02-Variables.js
 │   │   ├── 03-Operators.js
@@ -22,10 +21,10 @@ estrutura-dados-algoritmos-js
 │   │   ├── 08-Functions.js
 │   │   └── 09-ObjectOrientedJS.js
 │   ├── chapter-2
-│   │   └── exercises
-│   │       └── exercise-1.js
+│   │   ├── 00-TestRunner.html
 │   └── utils
 │       └── helper.js
+│   ├── styles.css
 ├── .github
 │   ├── ISSUE_TEMPLATE
 │   │   ├── bug_report.md
