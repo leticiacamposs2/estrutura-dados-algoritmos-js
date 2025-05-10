@@ -22,6 +22,9 @@ estrutura-dados-algoritmos-js
 ├── CONTRIBUTING.md
 ├── package.json
 ├── README.md
+├── scripts
+│   ├── update-chapter2.js
+│   └── update-readme.js
 └── src
     ├── chapter-1
     │   ├── 00-TestRunner.html

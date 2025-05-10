@@ -6,7 +6,7 @@ const ROOT = path.resolve(__dirname, '..');
 const README = path.join(ROOT, 'README.md');
 
 const IGNORE = [
-    'node_modules', '.git', '.DS_Store', 'package-lock.json', 'scripts'
+    'node_modules', '.git', '.DS_Store', 'package-lock.json'
 ];
 
 function tree(dir, prefix = '') {
