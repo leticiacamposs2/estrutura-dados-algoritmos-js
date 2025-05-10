@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Runner - Chapter 1</title>
+</head>
+
+<body>
+    <h1>Executar Script do Capítulo 1</h1>
+    <label for="scriptSelect">Escolha o script:</label>
+    <select id="scriptSelect">
+        <option value="">Selecione...</option>
+        <option value="01-HelloWorld.js">01-HelloWorld.js</option>
+        <option value="02-Variables.js">02-Variables.js</option>
+        <option value="03-Operators.js">03-Operators.js</option>
+        <option value="04-TruthyFalsy.js">04-TruthyFalsy.js</option>
+        <option value="05-EqualsOperators.js">05-EqualsOperators.js</option>
+        <option value="06-ConditionalStatements.js">06-ConditionalStatements.js</option>
+        <option value="07-Loops.js">07-Loops.js</option>
+        <option value="08-Functions.js">08-Functions.js</option>
+        <option value="09-ObjectOrientedJS.js">09-ObjectOrientedJS.js</option>
+    </select>
+
+    <script>
+        const select = document.getElementById('scriptSelect');
+        let currentScript = null;
+
+        select.addEventListener('change', function () {
+            // Remove o script anterior, se houver
+            if (currentScript) {
+                document.body.removeChild(currentScript);
+                currentScript = null;
+            }
+            // Adiciona o novo script, se selecionado
+            if (this.value) {
+                const script = document.createElement('script');
+                script.src = this.value;
+                currentScript = script;
+                document.body.appendChild(script);
+            }
+        });
+    </script>
+</body>
+
+</html>
