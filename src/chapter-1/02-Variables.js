@@ -7,12 +7,14 @@ var trueValue = true;
 var nullVar = null;
 var und;
 
-console.log('num:' + num); // 3
-console.log('myName:' + myName); // Packt
-console.log('trueValue:' + trueValue); // true
-console.log('price:' + price); // 1.5
-console.log('nullVar:' + nullVar); // null
-console.log('und:' + und); // undefined
+if (require.main === module) {
+    console.log('num:' + num); // 3
+    console.log('myName:' + myName); // Packt
+    console.log('trueValue:' + trueValue); // true
+    console.log('price:' + price); // 1.5
+    console.log('nullVar:' + nullVar); // null
+    console.log('und:' + und); // undefined
+}
 
 var myVariable = 'global';
 var myOtherVariable = 'global';
@@ -27,9 +29,12 @@ function myOtherFunction() {
     return myOtherVariable;
 }
 
-console.log(myVariable); // global
-console.log(myFunction()); // local
-console.log(myOtherVariable); // global
-console.log(myOtherFunction()); // local
-console.log(myOtherVariable); // global
+if (require.main === module) {
+    console.log(myVariable); // global
+    console.log(myFunction()); // local
+    console.log(myOtherVariable); // global
+    console.log(myOtherFunction()); // local
+    console.log(myOtherVariable); // global
+}
 
+module.exports = { myFunction, myOtherFunction };
