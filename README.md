@@ -35,12 +35,18 @@ estrutura-dados-algoritmos-js
 │   │   ├── 08-Functions.js
 │   │   └── 09-ObjectOrientedJS.js
 │   ├── chapter-2
-│   │   └── 00-TestRunner.html
+│   │   ├── 00-TestRunner.html
+│   │   ├── 00-TestRunner.js
+│   │   ├── 10-letconst.js
+│   │   ├── 11-variableScope.js
+│   │   ├── 12-stringTemplates.js
+│   │   └── ECS.md
 │   ├── utils
 │   │   ├── __tests__
 │   │   │   └── helper.js
 │   │   └── helper.js
 │   ├── index.html
+│   ├── index.js
 │   └── styles.css
 ├── .eslintignore
 ├── .eslintrc.json
