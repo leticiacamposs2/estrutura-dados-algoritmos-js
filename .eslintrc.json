@@ -10,6 +10,25 @@
         "sourceType": "module"
     },
     "rules": {
-        // Suas regras personalizadas aqui
-    }
+        "no-unused-vars": "warn",
+        "no-console": "off",
+        "quotes": "off",
+        "semi": "off",
+        "indent": "off",
+        "linebreak-style": "off",
+        "eqeqeq": "off",
+        "curly": "off",
+        "no-multi-spaces": "off",
+        "no-trailing-spaces": "off"
+    },
+    "overrides": [
+        {
+            "files": [
+                "**/__tests__/**/*.js"
+            ],
+            "env": {
+                "jest": true
+            }
+        }
+    ]
 }

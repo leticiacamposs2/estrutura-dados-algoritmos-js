@@ -33,8 +33,11 @@ estrutura-dados-algoritmos-js
 │   ├── chapter-2
 │   │   └── 00-TestRunner.html
 │   ├── utils
+│   │   ├── __tests__
+│   │   │   └── helper.js
 │   │   └── helper.js
 │   └── styles.css
+├── .eslintignore
 ├── .eslintrc.json
 ├── .gitignore
 ├── CONTRIBUTING.md

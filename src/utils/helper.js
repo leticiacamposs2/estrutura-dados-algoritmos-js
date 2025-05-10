@@ -1,25 +1,17 @@
-// This file exports utility functions that can be used across different exercises, providing common functionalities needed for the implementations.
-
-export function isArrayEmpty(arr) {
-    return Array.isArray(arr) && arr.length === 0;
+function isArrayEmpty(arr) {
+    return arr.length === 0;
 }
-
-export function findMax(arr) {
-    if (!Array.isArray(arr) || arr.length === 0) return null;
+function findMax(arr) {
     return Math.max(...arr);
 }
-
-export function findMin(arr) {
-    if (!Array.isArray(arr) || arr.length === 0) return null;
+function findMin(arr) {
     return Math.min(...arr);
 }
-
-export function sumArray(arr) {
-    if (!Array.isArray(arr)) return 0;
-    return arr.reduce((acc, curr) => acc + curr, 0);
+function sumArray(arr) {
+    return arr.reduce((a, b) => a + b, 0);
 }
-
-export function averageArray(arr) {
-    if (!Array.isArray(arr) || arr.length === 0) return null;
+function averageArray(arr) {
     return sumArray(arr) / arr.length;
 }
+
+module.exports = { isArrayEmpty, findMax, findMin, sumArray, averageArray };
